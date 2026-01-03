@@ -9,19 +9,20 @@
  */
 {
   "current": {
-    "favicon": "shopify://shop_images/favicon.png",
+    "favicon": "shopify://shop_images/elmonarch.png",
     "currency_code_enabled": false,
     "back_top_enable": false,
-    "container_lg_width": 1200,
-    "container_fluid_offset": 190,
-    "type_body_font": "futura_n4",
+    "container_lg_width": 1400,
+    "container_fluid_offset": 170,
+    "type_body_font": "epilogue_n4",
     "use_custom_body_font": false,
     "custom_body_font": "https://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Regular.ttf?v=1618297125@400&https://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Medium.ttf?v=1618297125@500&https://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-SemiBold.ttf?v=1618297125@600",
-    "body_font_size": 100,
-    "type_header_font": "gill_sans_nova_n6",
+    "body_font_size": 80,
+    "type_header_font": "epilogue_n6",
     "use_custom_heading_font": false,
     "custom_heading_font": "https://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Regular.ttf?v=1618297125@400&https://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Medium.ttf?v=1618297125@500&https://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-SemiBold.ttf?v=1618297125@600",
     "heading_font_weight": "700",
+    "heading_font_size": 80,
     "button_border_radius": 50,
     "product_content_alignment": "left",
     "sold_out_badge_color_scheme": "inverse",
@@ -37,13 +38,14 @@
     "quick_view_preorder_button": false,
     "wishlist_show_compare_view_button": false,
     "social_twitter_link": "",
-    "social_facebook_link": "https://www.facebook.com/clasiqueofficial",
+    "social_facebook_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "https://www.instagram.com/clasiqueofficial",
-    "social_tiktok_link": "https://www.tiktok.com/@clasiqueofficial",
+    "social_instagram_link": "https://www.instagram.com/elmonarch.store",
+    "social_tiktok_link": "https://www.tiktok.com/@elmonarch.store",
     "cart_type": "drawer",
     "shipping_calc_enable": false,
     "continue_shopping_link": "shopify://collections/all",
+    "free_shipping_message": false,
     "free_shipping_amount": 5000,
     "free_shipping_only_amount": "2000",
     "predictive_search_enabled": true,
@@ -74,6 +76,25 @@
     "pcard_option_design": "color",
     "page_width": "1200",
     "show_rating": true,
+    "sections": {
+      "main-password": {
+        "type": "main-password",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "password-footer": {
+        "type": "password-footer",
+        "settings": {
+          "color_scheme": "background-2"
+        }
+      },
+      "color-swatches": {
+        "type": "color-swatches",
+        "settings": {}
+      }
+    },
+    "content_for_index": [],
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -94,18 +115,18 @@
       },
       "background-2": {
         "settings": {
-          "background": "#f7f8fc",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#333333",
-          "button": "#121212",
+          "text": "#000000",
+          "button": "#000000",
           "button_label": "#f3f3f3",
-          "primary_button_hover_bg": "#121212",
+          "primary_button_hover_bg": "#000000",
           "primary_button_hover_text": "#ffffff",
           "secondary_button_label": "#121212",
           "secondary_button_hover_bg": "#121212",
           "secondary_button_hover_text": "#ffffff",
           "tex_link_hover_color": "#121212",
-          "highligt_text": "#ee2761",
+          "highligt_text": "#000000",
           "highligt_text_gradient": ""
         }
       },
@@ -160,26 +181,7 @@
           "highligt_text_gradient": ""
         }
       }
-    },
-    "sections": {
-      "main-password": {
-        "type": "main-password",
-        "settings": {
-          "color_scheme": "background-1"
-        }
-      },
-      "password-footer": {
-        "type": "password-footer",
-        "settings": {
-          "color_scheme": "background-2"
-        }
-      },
-      "color-swatches": {
-        "type": "color-swatches",
-        "settings": {}
-      }
-    },
-    "content_for_index": []
+    }
   },
   "presets": {
     "Default": {
