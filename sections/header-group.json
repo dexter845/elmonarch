@@ -177,6 +177,9 @@
         "0d6ddf91-5827-4281-a03e-3027ce32f3bc",
         "collection_list_dB3Cih"
       ],
+      "custom_css": [
+        ".button.button--primary {background: black !important;}"
+      ],
       "settings": {
         "snow_fall": false,
         "container": "container",

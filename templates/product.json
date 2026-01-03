@@ -32,10 +32,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "d563cb6b-8466-4cf0-8cd4-34ce1b371973": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -53,6 +49,7 @@
         },
         "53de2819-ab0a-47a4-aeca-1e575e63ae70": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "countdown_label": "Hurry up! Sale ends in",
             "icon_enable": true,
@@ -62,6 +59,7 @@
         },
         "0e3f7ebe-d784-4350-a83b-af960997d3d5": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
             "low_stock_value": 10,
             "show_inventory_quantity": true,
@@ -95,77 +93,35 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true,
             "cart_icon_type": "bag",
-            "wishlist_btn": true,
-            "compare_btn": true,
+            "wishlist_btn": false,
+            "compare_btn": false,
             "guarantee_safe_checkout": false,
             "safe_checkout_text": "Guaranteed safe checkout"
-          }
-        },
-        "0a478e9c-d23b-4b8b-b309-62919d0eb667": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share",
-            "share_link": true,
-            "facebook_share": true,
-            "twitter_share": true,
-            "pinterest_share": true
-          }
-        },
-        "d0e5cb3f-bc16-499b-bb44-24e33b8e8d49": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": true,
-            "icon": "price_tag",
-            "products_per_page": 3,
-            "product_list_limit": 10,
-            "image_ratio": "adapt",
-            "enable_quick_add": true,
-            "show_vendor": false,
-            "show_product_rating": false
-          }
-        },
-        "1d503ba9-a9dc-40c9-81a3-5cf3b12db233": {
-          "type": "popup_size_guide",
-          "settings": {
-            "display": "all",
-            "size_guide": "Size Guide",
-            "icon": "ruler",
-            "content": "",
-            "sizeguidhandle": "size-guide"
-          }
-        },
-        "4da3a3dc-a122-42f1-ac3a-ff8d5edd3467": {
-          "type": "popup_contact_form",
-          "settings": {
-            "contact_form_label": "Ask About This product"
           }
         }
       },
       "block_order": [
-        "d563cb6b-8466-4cf0-8cd4-34ce1b371973",
         "title",
         "4add1bd5-3d4d-4c4e-9f65-5e23cc0e1ff4",
         "price",
         "53de2819-ab0a-47a4-aeca-1e575e63ae70",
         "0e3f7ebe-d784-4350-a83b-af960997d3d5",
         "variant_picker",
-        "buy_buttons",
-        "0a478e9c-d23b-4b8b-b309-62919d0eb667",
-        "d0e5cb3f-bc16-499b-bb44-24e33b8e8d49",
-        "1d503ba9-a9dc-40c9-81a3-5cf3b12db233",
-        "4da3a3dc-a122-42f1-ac3a-ff8d5edd3467"
+        "buy_buttons"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 991px) {.product__sticky_head.d-flex.align-items-center.d-md-none {display: flex !important; }}"
+        "@media only screen and (max-width: 991px) {.product__sticky_head.d-flex.align-items-center.d-md-none {display: flex !important; }}",
+        ".button.button--primary {background: black;}",
+        ".shopify-payment-button__button--unbranded,.button__notify--product {background: white; color: black; border: 1px solid black; box-shadow: unset;}",
+        ".product__add__cart__button {width: 65%;}"
       ],
       "settings": {
         "container": "container-fluid",
-        "gallery_layout": "thumbnail_slider",
-        "media_size": "large",
-        "media_height": "adapt",
-        "hide_variants": false,
-        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "medium",
+        "media_height": "medium",
+        "hide_variants": true,
+        "enable_sticky_info": false,
         "enable_video_looping": false,
         "mobile_thumbnails": "show",
         "sticky_enable": true,
@@ -239,28 +195,12 @@
             "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.</p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.</p>",
             "content_page": ""
           }
-        },
-        "0894f4ae-75c9-43b8-a78e-59b3d3cb5e99": {
-          "type": "unique_tab",
-          "settings": {
-            "header": "Tab heading",
-            "unique_tab_liquid": "{{ product.metafields.meta.unique_tab.value }}"
-          }
-        },
-        "8142d0c0-5d12-45ce-a675-5a72696f6a51": {
-          "type": "unique_tab",
-          "settings": {
-            "header": "Tab heading",
-            "unique_tab_liquid": ""
-          }
         }
       },
       "block_order": [
         "f84995d4-4425-4260-8691-caca2d18c7f1",
         "8a5ab9db-2caf-48ef-810e-28477b5602e4",
-        "38c2eeac-86dd-480c-ab1e-82181ed6c61b",
-        "0894f4ae-75c9-43b8-a78e-59b3d3cb5e99",
-        "8142d0c0-5d12-45ce-a675-5a72696f6a51"
+        "38c2eeac-86dd-480c-ab1e-82181ed6c61b"
       ],
       "settings": {
         "container": "container-fluid",
