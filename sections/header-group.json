@@ -1,0 +1,226 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "index": false,
+            "no_index": false,
+            "text": "Free Delivery Over Rs. 5000",
+            "link": "shopify://collections",
+            "social_media": true,
+            "country_selector": true,
+            "language_selector": true,
+            "collapsible_content": true,
+            "toggle_button": "More",
+            "subheading": "",
+            "heading": "New Arrivals Just Landed!",
+            "heading_size": "h2",
+            "description": "<p>Discover our latest collection, designed for elegance and comfort. Shop now and stay ahead of the trends.</p>",
+            "button_label": "Shop Now",
+            "button_icon": false,
+            "button_link": "",
+            "button_style": "primary",
+            "button_size": "medium",
+            "alignment": "center",
+            "height": "adapt",
+            "background_image": false,
+            "image_overlay_opacity": 0,
+            "section_height": "small",
+            "color_scheme": "inverse"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+        "announcement_enable": true,
+        "snow_fall": false,
+        "container": "container-fluid",
+        "show_offset": true,
+        "color_scheme": "inverse"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "9807da7e-a675-41c3-9e02-bf396f81488f": {
+          "type": "menu_promo_banner",
+          "disabled": true,
+          "settings": {
+            "heading": "Shop",
+            "height": "adapt",
+            "promo1_heading": "UP TO 70% OFF",
+            "promo1_text": "<p>SHOP NOW</p>",
+            "promo1_link": "",
+            "height_2": "adapt",
+            "promo2_heading": "UP TO 50% OFF",
+            "promo2_text": "",
+            "promo2_link": ""
+          }
+        },
+        "3aa17746-242a-4701-8309-e7b52abcebd2": {
+          "type": "collection_list",
+          "disabled": true,
+          "settings": {
+            "heading": "Categories",
+            "image_width": "full",
+            "image_ratio": "square",
+            "product_items": true,
+            "mega_menu_column_width": "full",
+            "collection_1": "bestselling",
+            "collection_2": "new-arrival",
+            "collection_3": "trending",
+            "collection_4": "bestselling",
+            "collection_5": "new-arrival",
+            "collection_6": "bestselling"
+          }
+        },
+        "25be0922-59bc-45e0-a489-a7abc7816f80": {
+          "type": "products",
+          "disabled": true,
+          "settings": {
+            "heading": "Products",
+            "product_list": [
+              "columbia-sportswear",
+              "fitch-clothes",
+              "lamborghini-miura",
+              "old-navy-clothing",
+              "lingeries-modern",
+              "lululemon-athletica-leggings",
+              "mens-classic-fashion",
+              "triangle-hair-scarf",
+              "vintage-fashion"
+            ],
+            "product_heading": "Best selling",
+            "product_column_width": "third",
+            "slider_enable": true,
+            "product_column": "2",
+            "product_column_laptop": "4",
+            "card_style": "style_2",
+            "image_ratio": "adapt",
+            "show_secondary_image": true,
+            "show_badges": false,
+            "show_cart_button": true,
+            "show_quick_view_button": false,
+            "show_compare_view_button": false,
+            "show_wishlist_button": false,
+            "show_title": true,
+            "show_price": true,
+            "show_vendor": false
+          }
+        },
+        "0d6ddf91-5827-4281-a03e-3027ce32f3bc": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "Blog",
+            "mega_menu_column_width": "full",
+            "banner_column": "3",
+            "height": "adapt",
+            "banner_1_link": "shopify://collections/all",
+            "banner_2_height": "adapt",
+            "banner_2_link": "",
+            "banner_3_height": "adapt",
+            "banner_3_link": "",
+            "banner_4_height": "adapt",
+            "banner_4_link": "",
+            "banner_5_height": "adapt",
+            "banner_5_link": "",
+            "banner_6_height": "adapt",
+            "banner_6_link": "",
+            "banner_7_height": "adapt",
+            "banner_7_link": "",
+            "banner_8_height": "adapt",
+            "banner_8_link": "",
+            "banner_9_height": "adapt",
+            "banner_9_link": "",
+            "banner_10_height": "adapt",
+            "banner_10_link": ""
+          }
+        },
+        "collection_list_dB3Cih": {
+          "type": "collection_list",
+          "settings": {
+            "heading": "Catalog",
+            "image_width": "full",
+            "image_ratio": "square",
+            "product_items": true,
+            "mega_menu_column_width": "full",
+            "collection_1": "co-ord-sets",
+            "collection_2": "dresses",
+            "collection_3": "kurta-sets",
+            "collection_4": "skirts",
+            "collection_5": "jumpsuits-overalls",
+            "collection_6": "tops-tees"
+          }
+        }
+      },
+      "block_order": [
+        "9807da7e-a675-41c3-9e02-bf396f81488f",
+        "3aa17746-242a-4701-8309-e7b52abcebd2",
+        "25be0922-59bc-45e0-a489-a7abc7816f80",
+        "0d6ddf91-5827-4281-a03e-3027ce32f3bc",
+        "collection_list_dB3Cih"
+      ],
+      "settings": {
+        "snow_fall": false,
+        "container": "container-fluid",
+        "show_offset": true,
+        "logo": "shopify://shop_images/logoLogo_Black_PNG.png",
+        "logo_width": 200,
+        "menu": "main-menu",
+        "header_design": "logo__left--menu-center",
+        "border_hide_on_home_page": false,
+        "header_sticky": true,
+        "sticky_color_background": "#ffffff",
+        "sticky_text_color": "#000000",
+        "transparent_header": true,
+        "logo_2": "shopify://shop_images/logoLogo_Black_PNG.png",
+        "transparent_color_foreground": "#000000",
+        "transparent_color_background": "#ffffff",
+        "transparent_text_color": "#121212",
+        "account_button": true,
+        "cart_drawer_button": true,
+        "cart_icon_type": "cart",
+        "wishlist_button": true,
+        "compare_button": false,
+        "search_type": "search_box",
+        "vertical_menu": false,
+        "vertical_button_label": "All Categories",
+        "menu_toggle_button_label": "All Categories +",
+        "menu_toggle_button_label_2": "Hide Categories -",
+        "icon": "lightning_bolt",
+        "category_color_scheme": "background-2",
+        "header_right_info": true,
+        "phone_text": "Special up to 60% Off all item",
+        "welcome_text_with_icon": "lightning_bolt",
+        "welcome_text_link": "",
+        "menu_position": "between",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "color_scheme": "background-1",
+        "color_scheme_3": "",
+        "color_scheme_2": "background-1"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
